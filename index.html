@@ -1,20 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
 <head>
-	<title>Laura's Website</title>
-	<meta charset="utd=8"/>
-	<link rel="stylesheet" type="text/css" href="main.css"/>
+   <meta charset="utf-8" />
+   <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+   <title>Laura's Website</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 <body>
-	<h1>Look Out, World!</h1>
-	<h3>Applications Developer looking for an internship</h3>
-
-	<p>Laura Pak, junior computer science student at the University of Texas at Dallas--I'm very pleased to meet you!</p>
-	<p>I can code in Python3, C++, JSX, Java, and I can mock up a webpage in HTML5 and CSS. I have brushed on the basics of SQL, but it is the least strong of my languages.</p>
-	<p>I use React Native a lot to build mobile apps that will work on Android and iOS. I also code in vim; I'm planning to switch soon, but I am familiar with bash command line as a result of the vim experience. I access Github and use git with the command line--at this point, I don't think I could learn Github Desktop.</p>
-	<p>Least excitingly, I am proficient in Word, PowerPoint, Excel, and Google Drive.</p>
-	<p></p>
-	<p>In addition to mobile apps coded in React Native (for elementary kids' math, volunteer housing in case of natural disaster or emergency, quick calulation of casing for oil wells), I have contributed to Social Media Stocker, a website that uses machine learning and social media to predict stock prices, and Clean Green, a game that educates the player on recycling and conservation.</p>
-	<p>My current project is a website that uses machine learning to predict which tennis player will win the ATP tournament. Another project in the works is a mobile app that will allow people to quickly check if a dog is a stray or a lost pet.</p>
+   <div>
+      <div>
+         <nav class="navbar navbar-toggleable-sm navbar-light bg-light">
+            <div class ='navbar-nav'>
+               <a class='navbar-brand'>Laura Pak</a>
+               <a class='nav-item nav-link active' href='/'>Home <span class='sr-only'>(current)</span></a>
+               <a class='nav-item nav-link' href='/about'>About</a>
+               <a class='nav-item nav-link' href='/contact'>Contact</a>
+            </div>
+         </nav>
+      </div>
+      <br />
+      <div class = "jumbotron">
+         <h4>Overview</h4>
+         <p>
+            Welcome to my website! My name is Laura Pak, and I am an 
+            honors computer science student 
+            at the University of Texas at Dallas, and my passion is 
+            machine learning with a side of app development. I believe the most 
+            important skill you can cultivate is applied communication--being 
+            able to take in other people's ideas while conveying your own.
+         </p>
+         <p>
+            After I graduate in May, I hope to start work immediately 
+            in software engineering and app development. Once I settle
+            in with a few years of experience, though, I'd like to take 
+            classes on the side for a masters in machine learning and/or 
+            artificial intelligence, hopefully with a focus on natural 
+            language processing.
+         </p>
+         <h4>Skills and Technologies</h4>
+            <div class = 'container'>
+               <div class='row'>
+                  <div class='col-sm'>
+                     <p>React Native</p>
+                     <p>nltk</p>
+                     <p>scikit-learn</p>
+                  </div>
+                  <div class='col-sm'>
+                     <p>Maven</p>
+                     <p>Spring Boot</p>
+                     <p>Thymeleaf</p>
+                  </div>
+                  <div class='col-sm'>
+                     <p>Agile</p>
+                     <p>vim</p>
+                     <p>bash</p>
+                  </div>
+               </div>
+            </div>
+         <h4>Experience</h4>
+         <div>
+            <h5>JP Morgan Chase & Co. | Software Engineer Intern</h5>
+            <p>
+               • Worked on an Agile team to visualize employee 
+               performance in a responsive online dashboard built 
+               with Java Spring Boot web application hosted in the 
+               cloud
+            </p>
+            <p>
+               • Application dynamically pulled data daily from 
+               MSSQL databases, normalized the data, stored it 
+               in a database created for the application, 
+               and visualized data using amCharts JS
+            </p>
+            <p>
+               • Projected to save two hours a month per 
+               manager across branches of JPMC and increase 
+               agent efficiency
+            </p>
+         </div>
+         <div>
+            <h5>Univeristy of Texas at Dallas | NLP Research Assistant</h5>
+            <p>
+               •	Cleaned data for Natural Language Processing 
+               (NLP) algorithm training
+            </p>
+            <p>
+               •	Reviewed and edited doctorate-level 
+               research papers by cleaning transference from 
+               PDF to Word, recreating graphs and tables, and 
+               correcting grammar and spelling
+            </p>
+         </div>
+         <!-- <h4>personal links</h4> -->
+      </div>
+   </div>
 </body>
 </html>
